@@ -27,15 +27,15 @@ Am Ende ermittelt das Skript das Tier mit der höchsten Punktzahl und gibt Ihr E
 
 ### Wichtige Funktionen
 
-`get_input(string $prompt): string`
+`get_input(string $prompt): string`  
 Fordert den Benutzer zur Eingabe auf und stellt sicher, dass diese nicht leer ist.  
 Verwendet Rekursion und String-Typ-Hinweise.  
 
-`ask_question(string $question, array $choices): string`
+`ask_question(string $question, array $choices): string`  
 Zeigt eine Frage an, stellt mithilfe von regulären Ausdrücken sicher, dass die Eingabe aus einem gültigen Buchstaben (A–E) besteht, und gibt die validierte Antwort zurück.
 
 
-`determine_animal(array $score): string`
+`determine_animal(array $score): string`  
 Sortiert das Punkte-Array und ordnet das beste Ergebnis einer für Menschen verständlichen Meldung zu.
 
 ## Ausführen des Quiz
@@ -75,4 +75,5 @@ Sie werden direkt in Ihrem Terminal durch die Fragen geführt.
 
 Bebe Egerton
 bebeegerton14@gmail.com
+
 
