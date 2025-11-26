@@ -20,16 +20,16 @@ Das Projekt nutzt benutzerdefinierte Funktionen, Rekursion, Eingabevalidierung m
 
 ## So funktioniert es
 
-Das Skript stellt eine Reihe von Multiple-Choice-Fragen.
-Jede Option entspricht einem bestimmten Tier.
-Ihre ausgewählten Antworten erhöhen die Punktzahl dieses Tieres.
-Am Ende ermittelt das Skript das Tier mit der höchsten Punktzahl und gibt Ihr Ergebnis aus.
+Das Skript stellt eine Reihe von Multiple-Choice-Fragen.  
+Jede Option entspricht einem bestimmten Tier.  
+Ihre ausgewählten Antworten erhöhen die Punktzahl dieses Tieres.  
+Am Ende ermittelt das Skript das Tier mit der höchsten Punktzahl und gibt Ihr Ergebnis aus.  
 
 ### Wichtige Funktionen
 
 `get_input(string $prompt): string`
-Fordert den Benutzer zur Eingabe auf und stellt sicher, dass diese nicht leer ist.
-Verwendet Rekursion und String-Typ-Hinweise.
+Fordert den Benutzer zur Eingabe auf und stellt sicher, dass diese nicht leer ist.  
+Verwendet Rekursion und String-Typ-Hinweise.  
 
 `ask_question(string $question, array $choices): string`
 Zeigt eine Frage an, stellt mithilfe von regulären Ausdrücken sicher, dass die Eingabe aus einem gültigen Buchstaben (A–E) besteht, und gibt die validierte Antwort zurück.
@@ -41,11 +41,11 @@ Sortiert das Punkte-Array und ordnet das beste Ergebnis einer für Menschen vers
 ## Ausführen des Quiz
 
 **Anforderungen:**
-PHP 8.0+
-CLI-Zugriff (Terminal, PowerShell usw.)
+PHP 8.0+  
+CLI-Zugriff (Terminal, PowerShell usw.)  
 
-*Führen Sie das Skript aus:*
-`php quiz.php`
+*Führen Sie das Skript aus:*  
+`php quiz.php`  
 Sie werden direkt in Ihrem Terminal durch die Fragen geführt.
 
 
@@ -75,3 +75,4 @@ Sie werden direkt in Ihrem Terminal durch die Fragen geführt.
 
 Bebe Egerton
 bebeegerton14@gmail.com
+
